@@ -1,7 +1,12 @@
 # dataset directory
 # dataset=news
 # dataset=movies
-dataset=$1
+
+if [ -n "$1" ]; then # check first arg nonzero
+	dataset=$1
+else
+	dataset=news
+fi
 
 # text file name; one document per line
 text_file=phrase_text.txt
