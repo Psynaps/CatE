@@ -1,5 +1,7 @@
 # dataset directory
-dataset=news
+# dataset=news
+# dataset=movies
+dataset=$1
 
 # text file name; one document per line
 text_file=phrase_text.txt

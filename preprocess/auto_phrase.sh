@@ -14,6 +14,9 @@ reset=`tput sgr0`
 
 # dataset directory
 CORPUS_DIR=../datasets/news
+if [ -n "$1" ]; then # check first arg nonzero
+    CORPUS_DIR=../datasets/$1
+fi
 
 # raw text file
 CORPUS_FILE=text.txt
