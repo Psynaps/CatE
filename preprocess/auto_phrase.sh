@@ -13,7 +13,7 @@ green=`tput setaf 2`
 reset=`tput sgr0`
 
 # dataset directory
-CORPUS_DIR=../datasets/YOUR_CORPUS
+CORPUS_DIR=../datasets/news
 
 # raw text file
 CORPUS_FILE=text.txt
