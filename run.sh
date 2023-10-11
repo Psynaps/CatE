@@ -9,7 +9,7 @@ else
 fi
 
 # text file name; one document per line
-text_file=text.txt
+text_file=phrase_text.txt
 
 # category name file
 topic_file=topics.txt
